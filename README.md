@@ -24,16 +24,13 @@ Each row in the dataset represents a consumer applying for a loan. The target va
 | `Credit_Score`                    | Creditworthiness score (300–850 scale).                                  |
 | `Income`                          | Annual income of the applicant (USD).                                    |
 | `DTI_Ratios`                      | Ratio of debt payments to income.                                        |
-| `Employment_Status`               | Employment condition (Employed, Unemployed, etc.).                       |
-| `Loan_Amount_Requested`           | Loan amount applied for in USD.                                          |
+| `Employment`                      | Employment condition (Employed, Unemployed, etc.).                       |
 | `Loan_Purpose`                    | Reason for the loan (Auto, Education, Business, etc.).                   |
 | `Credit_History`                   | Years since the customer opened their first credit line.                |
 | `Open_Accounts`                   | Number of active credit accounts.                                        |
-| `Credit_Utilization_Ratio`        | Ratio of credit used to total available credit.                          |
+| `Utilization`                     | Ratio of credit used to total available credit.                          |
 | `Delinquencies`                   | Count of missed payments.                                                |
-| `Bankruptcies`                    | Number of past bankruptcy filings.                                       |
-| `Housing_Status`                  | Rental or ownership status.                                              |
-| `ZIP_Code`                        | Postal code (dropped due to ethical and legal concerns).                 |
+| `Housing`                         | Rental or ownership status.                                              |
 | `Default`                         | Target variable — whether the applicant defaulted (1 = Yes, 0 = No).     |
 
 </details>
@@ -49,5 +46,18 @@ Each row in the dataset represents a consumer applying for a loan. The target va
 
 Classification model trained is Random Forest Classifier
 
+# Model Evaluation Metrics:
+
+    Accuracy
+
+    Precision & Recall
+
+    F1-Score
+
+# 🔍 Key Insights
+
+    Credit_Score, Debt_to_Income_Ratio, and Delinquencies are highly predictive of default.
+
+    Applicants with high Credit_Utilization_Ratio and low income were more likely to default.
 
 
