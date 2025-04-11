@@ -25,8 +25,8 @@ Each row in the dataset represents a consumer applying for a loan. The target va
 | `Income`                          | Annual income of the applicant (USD).                                    |
 | `DTI_Ratios`                      | Ratio of debt payments to income.                                        |
 | `Employment`                      | Employment condition (Employed, Unemployed, etc.).                       |
-| `Loan_Purpose`                    | Reason for the loan (Auto, Education, Business, etc.).                   |
-| `Credit_History`                   | Years since the customer opened their first credit line.                |
+| `Purpose`                         | Reason for the loan (Auto, Education, Business, etc.).                   |
+| `Credit_History`                  | Numeric score (1–20) indicating the strength or length of credit history |
 | `Open_Accounts`                   | Number of active credit accounts.                                        |
 | `Utilization`                     | Ratio of credit used to total available credit.                          |
 | `Delinquencies`                   | Count of missed payments.                                                |
