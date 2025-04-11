@@ -54,10 +54,28 @@ Classification model trained is Random Forest Classifier
 
     F1-Score
 
-# 🔍 Key Insights
+# ✅ Conclusion
 
-    Credit_Score, Debt_to_Income_Ratio, and Delinquencies are highly predictive of default.
+This credit risk analysis project used a Random Forest classifier to predict the likelihood of loan default based on consumer financial and credit attributes. Key findings from the analysis include:
 
-    Applicants with high Credit_Utilization_Ratio and low income were more likely to default.
+    Random Forest Model Performance
 
+        The model demonstrated solid classification performance, capturing complex patterns and feature interactions without overfitting.
 
+        Metrics such as accuracy, precision, recall, and ROC-AUC confirmed that the model is effective at identifying high-risk applicants.
+
+    Important Predictors Identified
+
+        Features like Credit Score, Debt-to-Income Ratio, Credit Utilization Ratio, and Delinquencies were the top contributors to predicting defaults.
+
+        These indicators aligned with financial intuition: applicants with poor credit management or heavy debt loads are more likely to default.
+
+    Data Preparation Was Crucial
+
+        Categorical variables were encoded and scaled appropriately.
+
+        Non-informative or privacy-sensitive features such as Customer_ID and ZIP_Code were excluded from the model to enhance fairness and utility.
+
+# 📌 Final Takeaway
+
+    The Random Forest classifier proved to be a powerful tool for modeling consumer credit risk. With accurate predictions and meaningful insights, this analysis offers a reliable framework that lenders can use to reduce default exposure and improve credit decision-making.
