@@ -14,3 +14,21 @@ This project performs a comprehensive analysis of consumer credit data to assess
 
     Evaluate model performance using classification metrics (e.g., accuracy, precision, recall, ROC-AUC).
 
+
+    | Column Name                        | Description                                                              |
+|-----------------------------------|--------------------------------------------------------------------------|
+| `Customer_ID`                     | Unique identifier (dropped in modeling).                                 |
+| `Credit_Score`                    | Creditworthiness indicator (300-850).                                    |
+| `Income`                          | Annual gross income in USD.                                              |
+| `Debt_to_Income_Ratio`            | Ratio of total monthly debt payments to monthly gross income.            |
+| `Employment_Status`               | Job status of the applicant (e.g., Employed, Unemployed).                |
+| `Loan_Amount_Requested`           | The loan amount applied for, in USD.                                     |
+| `Loan_Purpose`                    | Purpose of the loan (e.g., Auto, Business, Education, Emergency).        |
+| `Length_of_Credit_History_Years` | Number of years since the first credit account was opened.               |
+| `Open_Accounts`                   | Number of currently active credit accounts.                              |
+| `Credit_Utilization_Ratio`        | Ratio of current credit balances to total available credit.              |
+| `Delinquencies`                   | Number of missed or late payments on credit obligations.                 |
+| `Bankruptcies`                    | Number of times the applicant has filed for bankruptcy.                  |
+| `Housing_Status`                  | Indicates whether the applicant owns or rents their residence.           |
+| `ZIP_Code`                        | Residential ZIP code (excluded due to potential bias or privacy issues). |
+
