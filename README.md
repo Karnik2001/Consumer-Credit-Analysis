@@ -62,7 +62,7 @@ This credit risk analysis project used a Random Forest classifier to predict the
 
         The model demonstrated solid classification performance, capturing complex patterns and feature interactions without overfitting.
 
-        Metrics such as accuracy, precision, recall, and ROC-AUC confirmed that the model is effective at identifying high-risk applicants.
+        Metrics such as accuracy, precision, and recall confirmed that the model is effective at identifying high-risk applicants.
 
     Important Predictors Identified
 
@@ -73,9 +73,6 @@ This credit risk analysis project used a Random Forest classifier to predict the
     Data Preparation Was Crucial
 
         Categorical variables were encoded and scaled appropriately.
-
-        Non-informative or privacy-sensitive features such as Customer_ID and ZIP_Code were excluded from the model to enhance fairness and utility.
-
 # 📌 Final Takeaway
 
-    The Random Forest classifier proved to be a powerful tool for modeling consumer credit risk. With accurate predictions and meaningful insights, this analysis offers a reliable framework that lenders can use to reduce default exposure and improve credit decision-making.
+The Random Forest classifier proved to be a powerful tool for modeling consumer credit risk. With accurate predictions and meaningful insights, this analysis offers a reliable framework that lenders can use to reduce default exposure and improve credit decision-making.
