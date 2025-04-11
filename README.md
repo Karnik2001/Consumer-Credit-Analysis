@@ -76,3 +76,7 @@ This credit risk analysis project used a Random Forest classifier to predict the
 # 📌 Final Takeaway
 
 The Random Forest classifier proved to be a powerful tool for modeling consumer credit risk. With accurate predictions and meaningful insights, this analysis offers a reliable framework that lenders can use to reduce default exposure and improve credit decision-making.
+
+# Citation
+
+https://python.plainenglish.io/building-a-credit-risk-model-a-step-by-step-guide-with-python-3e62beabfe9a
