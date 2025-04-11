@@ -30,6 +30,7 @@ Each row in the dataset represents a consumer applying for a loan. The target va
 | `Open_Accounts`                   | Number of active credit accounts.                                        |
 | `Utilization`                     | Ratio of credit used to total available credit.                          |
 | `Delinquencies`                   | Count of missed payments.                                                |
+| ' Bankruptcy'                     | whether a borrower has ever filed for bankruptcy (1) or not (0)          |
 | `Housing`                         | Rental or ownership status.                                              |
 | `Default`                         | Target variable — whether the applicant defaulted (1 = Yes, 0 = No).     |
 
