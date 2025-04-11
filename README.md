@@ -20,9 +20,8 @@ This project performs a comprehensive analysis of consumer credit data to assess
 | `Income`                          | Annual gross income in USD.                                              |
 | `Debt_to_Income_Ratio`            | Ratio of total monthly debt payments to monthly gross income.            |
 | `Employment_Status`               | Job status of the applicant (e.g., Employed, Unemployed).                |
-| `Loan_Amount_Requested`           | The loan amount applied for, in USD.                                     |
-| `Loan_Purpose`                    | Purpose of the loan (e.g., Auto, Business, Education, Emergency).        |
-| `Length_of_Credit_History_Years` | Number of years since the first credit account was opened.               |
+| `Loan_Purpose`                    | Purpose of the loan (e.g. Education,Personal Loan).                      |
+| `Length_of_Credit_History_Years` | Number of years since the first credit account was opened.                |
 | `Open_Accounts`                   | Number of currently active credit accounts.                              |
 | `Credit_Utilization_Ratio`        | Ratio of current credit balances to total available credit.              |
 | `Delinquencies`                   | Number of missed or late payments on credit obligations.                 |
