@@ -16,7 +16,6 @@ This project performs a comprehensive analysis of consumer credit data to assess
 
 | Column Name                        | Description                                                              |
 |-----------------------------------|--------------------------------------------------------------------------|
-| `Customer_ID`                     | Unique identifier (dropped in modeling).                                 |
 | `Credit_Score`                    | Creditworthiness indicator (300-850).                                    |
 | `Income`                          | Annual gross income in USD.                                              |
 | `Debt_to_Income_Ratio`            | Ratio of total monthly debt payments to monthly gross income.            |
@@ -29,5 +28,4 @@ This project performs a comprehensive analysis of consumer credit data to assess
 | `Delinquencies`                   | Number of missed or late payments on credit obligations.                 |
 | `Bankruptcies`                    | Number of times the applicant has filed for bankruptcy.                  |
 | `Housing_Status`                  | Indicates whether the applicant owns or rents their residence.           |
-| `ZIP_Code`                        | Residential ZIP code (excluded due to potential bias or privacy issues). |
 
