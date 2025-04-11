@@ -14,8 +14,7 @@ This project performs a comprehensive analysis of consumer credit data to assess
 
     Evaluate model performance using classification metrics (e.g., accuracy, precision, recall, ROC-AUC).
 
-
-    | Column Name                        | Description                                                              |
+| Column Name                        | Description                                                              |
 |-----------------------------------|--------------------------------------------------------------------------|
 | `Customer_ID`                     | Unique identifier (dropped in modeling).                                 |
 | `Credit_Score`                    | Creditworthiness indicator (300-850).                                    |
