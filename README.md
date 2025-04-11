@@ -1,6 +1,7 @@
 # 💳 Consumer Credit Risk Analysis
 
 This project focuses on analyzing consumer credit data to assess the risk of loan default. It applies exploratory data analysis, data preprocessing, and classification modeling to predict credit risk using key financial indicators.
+
 🧠 Objectives
 
     Analyze credit-related financial features.
