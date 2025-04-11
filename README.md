@@ -14,7 +14,9 @@ This project focuses on analyzing consumer credit data to assess the risk of loa
 # 📦 Dataset Description
 
 Each row in the dataset represents a consumer applying for a loan. The target variable indicates whether the applicant is likely to default.
-<details> <summary><strong>📊 Features Description (Click to expand)</strong></summary>
+<details> <summary><strong>
+    
+# 📊 Features Description (Click to expand)</strong></summary>
 
 | Column Name                        | Description                                                              |
 |-----------------------------------|--------------------------------------------------------------------------|
